@@ -1,0 +1,522 @@
+@media(max-width:420px) {
+    * {
+        border-color: 1px solid red;
+    }
+
+    /* nav resposive start here */
+
+    nav img {
+        left: 8%;
+        top: 20px;
+        width: 140px;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 50%;
+        height: 90vh;
+        background-color: #34495e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+    }
+
+    /* nav resposive end here */
+
+
+    .middle-box {
+        margin-left: 20px;
+    }
+
+    .service {
+        align-items: center;
+        margin-top: 500px;
+    }
+
+    .service-image {
+        margin-top: 30px;
+    }
+
+    .service-image img {
+        margin-top: 100px;
+        /* margin: auto; */
+    }
+
+    /* explore  resposive start here*/
+    .container2 {
+        text-align: center;
+        display: grid;
+
+    }
+
+    .text-content h1 {
+        font-size: 52px;
+        padding-top: 20px;
+    }
+
+    .text-content p {
+        font-size: 25px;
+        padding-top: 60px;
+    }
+
+    .text-content button {
+        padding: 10px 25px;
+        margin-top: 80px;
+    }
+
+    .image-box img {
+        display: none;
+
+    }
+
+    /* explore responsive end here */
+
+    /* FEATURES responsive start here */
+    .middle-box button {
+        padding: 7px 15px;
+
+    }
+
+    .middle-box {
+        text-align: center;
+    }
+
+    .middle-box h2 {
+        padding-top: 45px;
+        font-size: 26px;
+    }
+
+    .box-box-box {
+        flex-direction: column;
+        text-align: center;
+        margin-left: -2.5%;
+    }
+
+    /* FEATURES responsive end  here */
+    /* middle-container responsive start here */
+    .middle-container {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .text-section h3 {
+        padding-top: 36px;
+        font-size: 33px;
+    }
+
+    .text-section-line i {
+        display: none;
+
+    }
+
+    .middle-container,
+    .text-section {
+        padding-right: 35px;
+    }
+
+    /* middle-container responsive end  here */
+    /* portfolio responsive start here  */
+
+    #portfolio {
+        text-align: center;
+
+    }
+
+    .port-container {
+        height: auto;
+        background-color: #1d1d1d;
+        ;
+    }
+
+    .port-container button {
+        padding: 7px 15px;
+    }
+
+    .port-container h4 {
+        padding-top: 30px;
+        font-size: 36px;
+    }
+
+    .image img {
+        width: 422px;
+    }
+
+    .four-image-container,
+    image img {
+        margin-left: -13%;
+    }
+
+    .four-image-container {
+        grid-template-columns: none;
+        width: 100%;
+    }
+
+    /* portfolio responsive endt here  */
+    /* client resposive start here */
+    #client {
+        margin-top: 930px;
+    }
+
+    .client-container {
+        width: 100%;
+        text-align: center;
+        grid-template-columns:auto;
+        flex-direction: column;
+
+    }
+    .clients-text-box h4 {
+        padding-top: 30px;
+    }
+    .clients-text-box h6 span i{
+         display: none;
+    }
+    .clients-text-box h6 {
+        padding-top: 20px;
+    }
+
+    .advace-part {
+        width: 100%;
+        padding-top: 25px;
+        flex-direction: column;
+        /* padding-left: 12%; */
+    }
+    .advance-box-1 {
+        width: 92%;
+        height: 100vh;
+        grid-template-columns: auto;
+    }
+    .Advanced h4{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .Advanced p{
+        padding-top: 25px;
+        font-size: 25px;
+    }
+    .Advance-meanu li a{
+        font-size: 25px;
+    }
+     .Advance-meanu li {
+        padding-top: 15px;
+     }
+     .Advance-price-card h5  {
+        font-size: 90px;
+     }
+     .Advance-price-card h5 i{
+        font-size: 50px;
+     }
+     .Advance-price-card button{
+        padding: 12px 45px;
+     }
+     .advance-box-2 {
+        width: 100%;
+        grid-template-columns: auto;
+        height: 100vh;
+        text-align: center;
+     }
+     .Enterprise{
+        padding-left: 30%;
+     }
+     .Enterprise h4{
+        font-size: 50px;
+        padding-left: -5%;
+     }
+     .Enterprise p{
+        padding-top: 25px;
+        font-size: 30px;
+     }
+     .Enterprise-meanu li a {
+        font-size: 25px;
+        line-height: 15px;
+
+     }
+     .Enterprise-price-card h3{
+        font-size: 50px;
+     }
+     .Enterprise-price-card i{
+        font-size: 30px;
+     }
+     .Enterprise-price-card button{
+        margin-top: 25px;
+        padding: 12px 50px;
+     }
+     /* clients responsive end here  */
+     /* service responsive start here */
+    /* .service {
+      
+    } */
+    .service-container{
+        grid-template-columns: auto;
+       
+       
+    }
+    .service-image img{
+        width: 445px;
+       
+    }
+
+    .service-image {
+        width: 100%;
+        margin-left: -20%;
+        display: none;
+       
+        
+    }
+    .service-image-overlay{
+        width: 117%;
+        height: 50vh;
+        margin-top: 430px;
+        border: none;
+        background-color: #1d1d1d;
+    }
+    .service-image-overlay img{
+        width: 60%;
+        display: none;
+      
+    }
+    .service-image-overlay p{
+        padding-top: 20px;
+    }
+    .service-image-overlay h6{
+        padding-top: 25px;
+    }
+
+    .service-text-box {
+        margin-top: 0px;
+    
+        text-align: center;
+    }
+    .service-text-box button{
+      padding: 12px 60px;
+      font-size: 18px;
+    }
+    .service-text-box p{
+        padding-top: 50px;
+    }
+    .service-text-box h5{
+        padding-top: 80px;
+    }
+    /* service responsive end here */
+    /* companies-logo responsive start here */
+    #companies-logo{
+        text-align: center;
+        
+    }
+    .logo-box  img{
+        width: 70%;
+    }
+
+    .companies-logo-container {
+        flex-direction: column;
+        gap: 50px;
+       
+
+    }
+     /* companies-logo responsive end  here */
+     /* SINCE-FROM-2008 responsive start here */
+     #SINCE-FROM-2008{
+        text-align: center;
+       
+     }
+    .SINCE-FROM-2008-container {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .part-box1 h6 {
+        padding-top: 20px;
+    }
+   .part-box-1 h3{
+    padding-top: 30px;
+    font-size: 30px;
+   }
+   .part-box-1 h6{
+    font-size: 13px;
+    padding-top: 5px;
+   }
+   /* SINCE-FROM-2008 responsive end here */
+   /* span-part responsive start here */
+   .span-part{
+    align-items: center;
+    padding-top: 25px;
+   }
+    .approch-part h2 {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .four-box-container{
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    .four-box-container,
+    .customer-box {
+        grid-template-columns: none;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .big-banner-text-box h2 {
+        font-size: 50px;
+    }
+
+    .big-banner-text-box h3 {
+        font-size: 40px;
+        padding-top: 35px;
+    }
+    #our-blog{
+        width: 100%;
+        text-align: center;
+    }
+    .latest-news h5{
+        padding-top: 25px;
+        font-size: 45px;
+    }
+
+    .Latest-news-box-container {
+        grid-template-columns: none;
+        padding-top: 30px;
+        width: 100%;
+
+    }
+
+    .frist-news-box {
+        grid-template-columns:auto;
+        width: 88%;
+    }
+    .news-text-box1{
+        text-align: center;
+        
+    }
+    .news-text-box1 h5{
+        font-size: 20px;
+    }
+    .news-text-box1 button{
+        margin-top: 35px;
+    }
+    
+
+    
+
+    .news-image-box {
+        width: 100%;
+        
+    }
+
+    .news-image-box img {
+        width: 420px;
+      
+    }
+
+    .second-news-box {
+        grid-template-columns: none;
+    }
+    .second-news-image-box img{
+        width: 418px;
+        margin-left: -14%;
+       
+    }
+
+    .news-text-box2 h5 {
+        font-size: 36px;
+
+    }
+    .news-text-box2{
+       margin-left: -10%;
+    }
+    .news-text-box2 button{
+        margin-top: 50px;
+        padding: 8px 50px;
+        font-size: 16px;
+    }
+    .span-part {
+        flex-direction: column;
+        gap: 25px;
+    }
+    /* span-part responsive end  here */
+    /* footer responsive start here */
+    #footer{
+        text-align: center;
+       
+    }
+    .foot-container-box {
+        grid-template-columns: none;
+
+    }
+
+    
+    .foot-container-box {
+        gap: 50px;
+    }
+
+    .news-text-box1 h5 {
+        font-size: 30px;
+    }
+
+    .address h5 {
+        font-size: 25px;
+    }
+
+    .Social{
+       line-height: 15px;
+    }
+
+    .Newsletter h4 {
+        font-size: 25px;
+    }
+
+    .part-box-1 h6 {
+        padding-top: 15px;
+    }
+
+    .Research h6 {
+        font-size: 25px;
+    }
+
+    .Concept h6 {
+        font-size: 25px;
+    }
+
+    .Implement h6 {
+        font-size: 25px;
+    }
+
+    .Handover h6 {
+        font-size: 25px;
+    }
+
+    .Say-Hello h5 {
+        font-size: 25px;
+    }
+
+
+}
